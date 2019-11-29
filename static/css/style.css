@@ -1,0 +1,58 @@
+.container-1, .container-2, .container-3, .container-4{
+    border: 2px solid rgb(58, 50, 50);
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-spr, .flex-box-pick-color{
+    display: flex;
+    border: 1px solid rgb(226, 137, 137);
+    padding: 10px;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+    flex-direction: row;/*default*/
+    justify-content: space-around; /*equal space*/
+}
+
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+/* .container-2{
+    border: 2px solid red;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+} */
+
+.container-2 #remove{
+    margin: 20px;
+}
+
+/* .flex-box-container-2{
+    display: flex; /* activates flex
+    flex-wrap: wrap;
+    border: 1 px solid green;
+    justify-content: space-around;
+} 
+*/
+
+.flex-box-container-2 img {
+    border: 1px solid greenyellow;
+    margin: 20px; 
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.flex-box-spr img:hover{
+    box-shadow: 0px 10px 50px rgba(63, 147, 216, 0.7);
+}
+
+/* style .flex-box-spr-div*/

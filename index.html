@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Javascript</title>
+</head>
+<body>
+    <div class="container-1">
+    <h2>Calculate Your Age in Days</h2>
+    <div class="flex-box-container-1">
+        <div>
+            <button class="btn btn-primary" onclick="ageInDays()">Click me</button>
+        </div>
+        <div>
+            <button class="btn btn-warning" onclick="reset()">Reset</button>
+        </div>
+
+        <div class="flex-box-container-1" >
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="container-2">
+        <h2>Populate Child</h2>
+        <div>
+            <button class="btn btn-success" id="child" onclick="populate()">Populate</button>
+       
+            <button class="btn btn-danger" id="remove" onclick="resetChild()">Reset</button>
+        </div>
+        <div class="flex-box-container-2">
+            <div id="flex-child">
+                
+            </div>
+        </div>
+        </div>
+
+    <div class="container-3">
+        <h2>Scissor, Paper, Rock</h2>
+        <div class="flex-box-spr" id="flex-box-spr-div" >
+            <img src="./static/images/scissors.png" alt="scissors" id="scissor" onclick="sprGame(this)">
+            <img src="./static/images/paper.png" alt="paper" id="paper" onclick="sprGame(this)">
+            <img src="./static/images/rock.png" alt="rock" id="rock" onclick="sprGame(this)">
+        </div>
+    </div>
+  
+
+    <div class="container-4">
+        <h2>Random Color Picker</h2>
+        <div class="flex-box-pick-color">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="reset">Reset</option>
+                </select>
+            </form>
+            <button class="btn btn-primary" >Google</button>
+            <button class="btn btn-danger" >Youtube</button>
+            <button class="btn btn-warning" >Facebook</button>
+            <button class="btn btn-success" >Instagram</button>
+        </div>
+    </div>
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
