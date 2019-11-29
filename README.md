@@ -1,2 +1,3 @@
 Learn JS!
-<img src="javascript.png" width:'200px' height:'300px'></img>
+
+<img src="Javascript.png" width:200px height:300px></img>
