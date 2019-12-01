@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Alatsi|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Table Color</title>
+</head>
+<body onload="startGame()">
+    <h1>Tic Tac Toe in Javascript</h1>
+    <h2 id="message">Message Here!</h2>
+    <div class="container">
+        <table border="1" style="border-collapse:collapse; margin-left: 340px;">
+            <tr>
+                <td class="box" id="b1" onclick="nextMove(this)"></td>
+                <td class="box" id="b2" onclick="nextMove(this)"></td>
+                <td class="box" id="b3" onclick="nextMove(this)"></td>
+            </tr>
+                 <tr>
+                    <td class="box" id="b4" onclick="nextMove(this)"></td>
+                    <td class="box" id="b5" onclick="nextMove(this)"></td>
+                    <td class="box" id="b6" onclick="nextMove(this)"></td>
+                </tr>
+                    <tr>
+                        <td class="box" id="b7" onclick="nextMove(this)"></td>
+                        <td class="box" id="b8" onclick="nextMove(this)"></td>
+                        <td class="box" id="b9" onclick="nextMove(this)"></td>
+                    </tr>
+        </table>
+    </div>
+    <a href="javascript: startGame();" id="restart">Start Over</a>
+    <script src="script.js"></script>    
+</body>
+</html>
